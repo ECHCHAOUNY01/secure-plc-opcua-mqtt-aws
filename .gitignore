@@ -1,0 +1,27 @@
+# Private keys, credentials and locally issued certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.csr
+*.srl
+*.crt
+passwd
+pwfile*
+.env
+.env.*
+!.env.example
+secrets/
+# Local configurations
+mosquitto/*.conf
+openssl/*.cnf
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

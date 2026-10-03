@@ -1,0 +1,19 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+req_extensions = req_ext
+distinguished_name = dn
+
+[dn]
+CN = <EC2_DNS>
+
+[req_ext]
+basicConstraints = critical,CA:FALSE
+keyUsage = critical,digitalSignature,keyEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = <EC2_DNS>
+IP.1 = <EC2_PUBLIC_IP>
