@@ -10,6 +10,6 @@ The setup covers mutual OPC UA application-certificate trust between the S7-1500
 
 I've documented the commands, configuration, and examples in a step-by-step GitHub tutorial.
 
-GitHub: <YOUR_REPOSITORY_LINK>
+GitHub: https://github.com/ECHCHAOUNY01/secure-plc-opcua-mqtt-aws
 
 #OPCUA #MQTT #KEPServerEX #AWS #IndustrialAutomation #OTSecurity #Python #IIoT
